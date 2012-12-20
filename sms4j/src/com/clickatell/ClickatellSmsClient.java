@@ -8,8 +8,8 @@ import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpResponse;
-import com.googlecode.sms4j.SmsClient;
-import com.googlecode.sms4j.SmsException;
+import com.openrest.sms4j.SmsClient;
+import com.openrest.sms4j.SmsException;
 
 public class ClickatellSmsClient implements SmsClient {
 	private static final String CLICKATELL_GATEWAY_URL = "https://api.clickatell.com/http/";

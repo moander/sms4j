@@ -1,4 +1,4 @@
-package com.googlecode.sms4j;
+package com.openrest.sms4j;
 
 public class SmsException extends Exception {
     public SmsException() {}

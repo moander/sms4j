@@ -1,6 +1,6 @@
 package com.cellact;
 
-import com.googlecode.sms4j.SmsException;
+import com.openrest.sms4j.SmsException;
 
 public class CellactSmsException extends SmsException {
     public CellactSmsException(Result result) {

@@ -8,8 +8,8 @@ import org.junit.Test;
 
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.javanet.NetHttpTransport;
-import com.googlecode.sms4j.SmsClient;
-import com.googlecode.sms4j.SmsException;
+import com.openrest.sms4j.SmsClient;
+import com.openrest.sms4j.SmsException;
 
 public class CellactSmsClientTest {
 	private static final HttpRequestFactory requestFactory = new NetHttpTransport().createRequestFactory();

@@ -1,6 +1,6 @@
 package il.co.inforu;
 
-import com.googlecode.sms4j.SmsException;
+import com.openrest.sms4j.SmsException;
 
 public class InforuSmsException extends SmsException {
     public InforuSmsException(Result result) {

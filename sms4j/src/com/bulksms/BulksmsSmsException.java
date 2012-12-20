@@ -1,6 +1,6 @@
 package com.bulksms;
 
-import com.googlecode.sms4j.SmsException;
+import com.openrest.sms4j.SmsException;
 
 public class BulksmsSmsException extends SmsException {
     private static final long serialVersionUID = 1L;

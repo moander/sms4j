@@ -1,6 +1,6 @@
 package com.nexmo;
 
-import com.googlecode.sms4j.SmsException;
+import com.openrest.sms4j.SmsException;
 
 public class NexmoSmsException extends SmsException {
     private static final long serialVersionUID = 1L;
